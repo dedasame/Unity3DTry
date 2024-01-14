@@ -1,4 +1,4 @@
-# WhispersInTheDark
+# Whispers In The Dark
 
-Today starting to do my first 3d game. -14.01.2024
+Here is my first try to do a 3D game!
 
