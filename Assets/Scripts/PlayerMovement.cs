@@ -15,31 +15,40 @@ public class PlayerMovement : MonoBehaviour
     void Start() //1 kere çalýþýr start da
     {
         rb = GetComponent<Rigidbody>();
-
     }
-
-    
+  
     void Update() //works 60 times for 1 sec.
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-
         rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);
         
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rb.velocity = new Vector3(rb.velocity.x,jumpForce, rb.velocity.z);
+            jump();
         }
 
     }
 
+    void jump()
+    {
+        rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("enemy head")) //Rigidbody + Freeze Position X ??
+        {
+            Destroy(collision.transform.parent.gameObject);
+            jump(); //düþmaný öldürünce zýplamasý için
+        }
+    }
+
+
     bool IsGrounded()
     {
-
         return Physics.CheckSphere(groundCheck.position, 0.1f, ground);
-
-
     }
 
 
