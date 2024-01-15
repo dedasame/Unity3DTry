@@ -2,7 +2,7 @@
 
 Here is my first try to do a 3D game!
 
-My game looks like this rn...
+My game looks like this rn... The little white thing is our player and the red thing is fatal for our player... Yea i know its gud ~(>_<~)
 ![Sec](https://github.com/dedasame/Whispers-In-The-Dark/assets/106378288/520f6c33-26dc-4019-9847-bdf7ed934aa4)
 
 My Goals:
