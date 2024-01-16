@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform groundCheck; //Player'ýn altýndaki object-> yerle temas ediyorsa zýplamaya izin vermek için
     [SerializeField] LayerMask ground;
 
+    [SerializeField] AudioSource jumpSound;
+
     void Start() //1 kere çalýþýr start da
     {
         rb = GetComponent<Rigidbody>();
@@ -34,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     void jump()
     {
         rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+        jumpSound.Play();
     }
 
     private void OnCollisionEnter(Collision collision)
