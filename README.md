@@ -7,6 +7,9 @@ My game looks like this rn... The little white thing is our player and the red t
 And today i created start and end screens maybe 1 more screen for player death... But they looks pretty gud in my opinion.
 ![imgonline-com-ua-twotoone-eciDGr02XzuYYKJ](https://github.com/dedasame/Whispers-In-The-Dark/assets/106378288/08939af7-a215-463f-852b-3dceca87f228)
 
+And now im changin as my wish for some horror game :-) Added an asset and it has this prefab. I add this girlie and now im gonna learn how to add animations. 
+![imgonline-com-ua-twotoone-eciDGr02XzuYYKJ](https://github.com/dedasame/Whispers-In-The-Dark/assets/106378288/39afc1b2-277a-4cfa-ae0d-8013369d37a2)
+
 My Goals:
 - Turn it just like horror + detective mixing :-)
 - Learn how to add 3D assets...
