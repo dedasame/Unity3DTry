@@ -10,7 +10,5 @@ And now im changin as my wish for some horror game :-) Added an asset and it has
 ![Change](https://github.com/dedasame/Whispers-In-The-Dark/assets/106378288/6e4ca956-a173-452a-a7b6-b8acc6626937)
 
 My Goals:
-- Turn it just like horror + detective mixing :-)
-- Learn how to add 3D assets...
+- Learn how to add 3D assets.
 
-I'll add every day for what did i do :)
