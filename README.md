@@ -9,6 +9,13 @@ And today i created start and end screens maybe 1 more screen for player death..
 And now im changin as my wish for some horror game :-) Added an asset and it has this prefab. I add this girlie and now im gonna learn how to add animations. 
 ![Change](https://github.com/dedasame/Whispers-In-The-Dark/assets/106378288/6e4ca956-a173-452a-a7b6-b8acc6626937)
 
-My Goals:
-- Learn how to add 3D assets.
+
+## Lights
+![Lights](https://github.com/dedasame/Unity3DTry/assets/106378288/ec8a511d-c7b0-440e-9c73-8ef5863e981e)
+- Reflection Prob: Reflections
+- Ligth Prob: Reflections in moving objects
+
+- And some videos...
+https://github.com/dedasame/Unity3DTry/assets/106378288/86dc963f-8405-46af-b8c1-1addcd0cad22
+https://github.com/dedasame/Unity3DTry/assets/106378288/68f566cc-67b0-4042-9525-b24a6626aefa
 
