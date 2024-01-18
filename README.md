@@ -18,4 +18,4 @@ And now im changin as my wish for some horror game :-) Added an asset and it has
 - And some videos...
 https://github.com/dedasame/Unity3DTry/assets/106378288/86dc963f-8405-46af-b8c1-1addcd0cad22
 https://github.com/dedasame/Unity3DTry/assets/106378288/68f566cc-67b0-4042-9525-b24a6626aefa
-
+- This multiple balls just made it with `Instantiate(kurePrefab)` 
